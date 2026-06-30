@@ -1,0 +1,12 @@
+---
+apiVersion: azuredevops.joshlawrence.dev/v1
+kind: Agent
+metadata:
+  name: example
+  namespace: default
+spec:
+  organization: joshlawrencedev
+  project: Sandbox
+  environment: development
+  image: ubuntu:24.04
+  count: 4
